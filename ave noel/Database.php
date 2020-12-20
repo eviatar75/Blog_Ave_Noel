@@ -2,9 +2,9 @@
 
 class Database
 {
-    const DB_HOST = 'mysql:host=localhost:8889;dbname=avenoel';
-    const DB_USER = 'eviatar';
-    const DB_PASS = 'eviatar';
+    const DB_HOST = 'mysql:host=localhost:3306;dbname=avenoel';
+    const DB_USER = 'root';
+    const DB_PASS = '';
     public function getConnection()
     {
         try
