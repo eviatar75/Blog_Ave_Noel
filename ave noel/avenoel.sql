@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.9.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Nov 21, 2020 at 09:50 PM
--- Server version: 5.6.38
--- PHP Version: 7.2.1
+-- Generation Time: Dec 20, 2020 at 03:14 PM
+-- Server version: 5.7.30
+-- PHP Version: 7.4.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -13,6 +13,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `avenoel`
 --
+CREATE DATABASE IF NOT EXISTS `avenoel` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `avenoel`;
 
 -- --------------------------------------------------------
 
