@@ -3,10 +3,10 @@ session_start();
 if(isset($_POST['mail']) && isset($_POST['password']))
 {
     // connexion à la base de données
-    $user = 'eviatar';
-    $mdp = 'eviatar';
+    $user = 'root';
+    $mdp = '';
     $bdd = 'avenoel';
-    $serveur = 'localhost:8889';
+    $serveur = 'localhost:3306';
 
     
     $db = mysqli_connect($serveur, $user, $mdp,$bdd)
