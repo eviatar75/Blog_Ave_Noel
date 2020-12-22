@@ -22,6 +22,7 @@ session_start();
 						 }
 						 else if($_GET['deconnexion'] = true)
 						 {
+							 session_unset();
 						  ?>
 
 						<li class="nav-item active">

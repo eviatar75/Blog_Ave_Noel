@@ -12,7 +12,7 @@
                 else $page = 0;
                 switch($page)
                 {
-                    case 1 : include("inscription.php"); break;
+                    case 1 : header('Location: inscription.php'); break;
                     case 2 : include(""); break;
                     case 3 : include(""); break;
                     default :
