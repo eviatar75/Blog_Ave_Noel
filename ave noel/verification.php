@@ -27,6 +27,11 @@ if(isset($_POST['mail']) && isset($_POST['password']))
         if($count!=0) // nom d'utilisateur et mot de passe correctes
         {
            $_SESSION['mail'] = $mail;
+           $requete = "SELECT id FROM client where mail = '".$mail."';";
+           $exec_requete = mysqli_query($db,$requete);
+           $reponse = mysqli_fetch_array($exec_requete);
+           $_SESSION ["id"]=$reponse["id"];
+
            header('Location: index.php');
         }
         else

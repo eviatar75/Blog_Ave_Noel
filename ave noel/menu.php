@@ -18,6 +18,12 @@ session_start();
 						 <li class="nav-item active">
 								<a class="nav-link" href="index.php?deconnexion=true">Se deconnecter<span class="sr-only">(current)</span></a>
 						</li>
+						<li class="nav-item active">
+								<a class="nav-link" href="index.php?deconnexion=true">Ecrire un post<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
+								<a class="nav-link" href="index.php?deconnexion=true">Les posts<span class="sr-only">(current)</span></a>
+						</li>
 						<?php
 						 }
 						 else if($_GET['deconnexion'] = true)
