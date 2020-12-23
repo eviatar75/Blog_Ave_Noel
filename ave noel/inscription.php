@@ -11,35 +11,35 @@
   
     <div class="d-flex justify-content-center">
 
-      <form action="inscription_bdd.php" method="POST" style="margin-top: 100px !important;">
+      <form method="POST" action="inscription_bdd.php"  style="margin-top: 100px !important;">
        
         <div class="form-group">
           <label for="user">Username</label>
-          <input type="user" class="form-control" id="user" style="width: 400px !important;">
+          <input type="user" class="form-control" name="user" id="user" style="width: 400px !important;">
         </div>
 
         <div class="form-group">
           <label for="mail">Mail</label>
-          <input type="mail" class="form-control" id="mail" style="width: 400px !important;">
+          <input type="mail" class="form-control" name="mail" id="mail" style="width: 400px !important;">
           <small id="mail" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
 
         <div class="form-group">
           <label for="nom">Nom</label>
-          <input type="nom" class="form-control" id="nom" style="width: 400px !important;">
+          <input type="nom" class="form-control" name="nom" id="nom" style="width: 400px !important;">
         </div>
 
         <div class="form-group">
           <label for="prenom">Prenom</label>
-          <input type="prenom" class="form-control" id="prenom" style="width: 400px !important;">
+          <input type="prenom" class="form-control" name="prenom" id="prenom" style="width: 400px !important;">
         </div>
 
         <div class="form-group">
           <label for="password">Password</label>
-          <input type="password" class="form-control" id="password" style="width: 400px !important;">
+          <input type="password" class="form-control" name="password" id="password" style="width: 400px !important;">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" value="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
   </div>

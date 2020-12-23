@@ -32,8 +32,7 @@ if(isset($_POST['user']) &&
 }
 else
 {
-   echo"erreur";
-   header('Location: index.php');
+   header('Location: inscription.php');
 }
 mysqli_close($db); // fermer la connexion
 ?>
